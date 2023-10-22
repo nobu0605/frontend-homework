@@ -115,8 +115,9 @@ function FullPageForm({
 
 function SimpleForm({ product, setProduct }: SimpleProps) {
   return (
-    <Flex $direction="column" $gap="16px">
+    <Flex $gap="16px">
       <ProductSelect value={product} setValue={setProduct} />
+      <ImageButton product={product} />
     </Flex>
   );
 }

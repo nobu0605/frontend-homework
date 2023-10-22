@@ -125,7 +125,7 @@ function Step6() {
   return (
     <Flex $direction="column" $gap="16px">
       {product && (
-        <Flex content="center">
+        <Flex $content="center">
           <StyledProductImage src={`/img/${product}.png`} alt="" />
         </Flex>
       )}

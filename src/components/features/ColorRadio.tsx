@@ -27,6 +27,6 @@ type Props = {
 
 export const ColorRadio: FC<Props> = ({ value, setValue }) => {
   return (
-    <RadioGroup row value={value} setValue={setValue} radioItems={colorItems} />
+    <RadioGroup value={value} setValue={setValue} radioItems={colorItems} />
   );
 };
